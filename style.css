@@ -28,7 +28,6 @@ nav {
   background-color: #c0d4f0;
   backdrop-filter: blur(30px);
   padding: 10px 0;
-  /* Note: backdrop-filter has minimal browser support */
 }
 
 .nav-links ul {
@@ -233,7 +232,7 @@ nav {
 }
 /***** Savings section end ****/
 
-/***** Message section end ****/
+/***** Message section Start ****/
 .message-section {
   display: flex;
   width: 55rem;
