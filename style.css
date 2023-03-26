@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:wght@500&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* common style  */
+.btn {
+  padding: 4px 20px;
+  text-align: center;
+  background: #6246e4;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 22px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: -1px 8px 22px 4px rgba(0, 0, 0, 0.4);
+}
+p {
+  color: #6a6a6a;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c0d4f0;
+  backdrop-filter: blur(30px);
+  padding: 10px 0;
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 4em;
+}
+.nav-links ul li {
+  list-style: none;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: #4f4f4f;
+  font-size: 20px;
+}
+.nav-links ul li a:hover {
+  color: #6246e4;
+}
+.login-info ul {
+  display: flex;
+  gap: 20px;
+}
+.login-info ul li {
+  list-style: none;
+}
+.login-info ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #4f4f4f;
+}
+.login-info ul .nav-btn li a {
+  color: rgb(255, 255, 255);
+}
+
+/* main section  */
+.main-section {
+  background-image: url(./header-image/bg.png);
+}
+.main-info {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-info-right img {
+  width: 500px;
+  height: 480px;
+  padding: 50px 0;
+}
+.main-info-left {
+  width: 300px;
+  height: 400px;
+}
+.main-info-left h1 {
+  font-weight: 600;
+  font-size: 50px;
+}
+.main-info-left .btn {
+  width: 11rem;
+}
+.main-info-left .btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/***** Hedaer end  *******/
+
+/***** Our Service Start  *******/
+.our-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.service-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.service-heading h2 {
+  font-size: 40px;
+  color: #343333;
+}
+.service-heading p {
+  font-size: 20px;
+  color: #838383;
+}
+.service-cards {
+  display: flex;
+  gap: 1rem;
+  width: 50rem;
+}
+.service-card {
+  background-color: #eff7ff;
+  text-align: center;
+  padding: 2rem 1.2rem;
+  border-radius: 30px;
+}
+.service-cards h3 {
+  font-size: 25px;
+  color: #343333;
+}
+.service-card:hover {
+  background-color: #6246e4;
+  transition: 0.7s ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+.service-card:hover p {
+  color: rgb(255, 255, 255);
+}
+.service-card:hover h3 {
+  color: rgb(255, 255, 255);
+}
+/***** Our Service end  *******/
+
+/***** Business section start ****/
+
+.business-section {
+  width: 1000px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
+}
+.business-section img {
+  width: 450px;
+  height: 550px;
+}
+.business-section h2 {
+  font-size: 40px;
+  color: #343333;
+}
+.business-tips p {
+  margin-top: 50px;
+  color: black;
+  line-height: 30px;
+}
+.business-tips p a {
+  text-decoration: none;
+  border-radius: 120%;
+  padding: 5px 10px;
+  background-color: rgba(247, 18, 197, 0.459);
+  color: white;
+  font-weight: 700;
+}
+/***** Business section end ****/
+
+/***** Savings section end ****/
+.savings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70rem;
+  margin: 10rem auto;
+}
+.savings-details {
+  padding: 1.9rem 7rem;
+  background-color: #fafafa;
+}
+.savings-details h3 {
+  color: #343333;
+  font-size: 30px;
+}
+.savings-img img {
+  width: 500px;
+  height: 400px;
+}
+.button {
+  display: flex;
+  align-items: center;
+}
+.button .button-1 {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 8px 20px;
+  text-align: center;
+  background: #6246e4;
+  border-radius: 10px;
+  outline: none;
+  -webkit-box-shadow: -1px 8px 22px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: -1px 8px 22px 4px rgba(0, 0, 0, 0.4);
+}
+.button .button-2 {
+  margin-left: 10px;
+  font-weight: 700;
+}
+.button .button-1:hover {
+    border-radius: 1px solid #6246e4;
+    background-color: #fff;
+    color: #343333;
+    transition: .5s;
+}
+/***** Savings section end ****/
